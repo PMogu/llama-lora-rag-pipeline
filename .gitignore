@@ -1,0 +1,38 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+.vscode/
+.idea/
+
+# =====================
+# Large models (DO NOT COMMIT)
+# =====================
+models/*
+!models/.gitkeep
+
+adapters/*
+!adapters/.gitkeep
+
+# =====================
+# RAG artifacts / vector indexes
+# =====================
+data/RAG/*
+!data/RAG/.gitkeep
+
+data/raw/chunk/*
+data/raw/pdf2txt/*
+
+# =====================
+# Generated training data
+# =====================
+data/train*

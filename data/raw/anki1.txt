@@ -1,0 +1,191 @@
+#separator:tab
+#html:false
+What are Darwin's three major propositions of evolution?	1. Species change over time (e.g. finch beak variation) 2. Descent with modification (homologous structure) 3. Natural selection explains adaptive change (Galápagos finches)
+Distinguish between natural selection and evolution	Natural selection = mechanism (process) Evolution = outcome (change in allele frequencies over time)
+State the five assumptions of Hardy-Weinberg equilibrium	No mutation No gene flow Infinite population size Random sampling No selection
+Define and contrast bottleneck effect and founder effect	Bottleneck effect = sudden reduction in population size - loss of allels Founder effect = Few individuals colonize new area - reduced diversity
+Define macroevolution vs microevolution	Macroevolution = large-scale changes above species level (fossil record, speciation) Microevolution = small-scale allel frequency changes within populations
+Contrast sympatric vs allopatric speciation	Allopatric = geographic barrier splits population Sympatric = no physical barrier, isolation via ecological/behavioral mechanisms
+Contrast prezygotic vs postzygotic isolation	Prezygotic = barriers before fertilization (temporal, behavioral, mechanical) Postzygotic = reduced hybrid viability/fertility (mule sterility)
+Define the biological species concept	species = interbreeding natural populations producing fertile offspring; reproductive isolation seperates species
+Define balancing selection	Natural selection that maintains genetic diversity by keeping multiple allels at higher frequency than chance (genetic drift)
+Give an example of heterozygote advantage	Sickle-cell trait: HbA/HbS heterozygotes resistant to malaria
+Define sexual selection: mate choice vs male conflict	Mate choice (inter-sexual): females select males, ornaments (e.g. widowbird tails) Male conflict (intra-sexual): males compete, armaments (e.g. elephant seals)
+Define coevolution	Reciprocal evolutionary change between interacting species (e.g. plant-pollinator, predator-prey)
+State Fick's Law and its factors	\[ Q = DA \frac{(P_1 - P_2)}{L} \] Diffusion depends on surface area, pressure gradient, distance
+Why is countercurrent exchange efficient in fish gills?	Water and blood flow in opposite directions = maintain oxygen gradient across gill length
+Contrast gas exchange in air vs water	Air: high \( O_2 \), low density, diffusion faster Water: Low \( O_2 \), dense/viscous, diffusion 8000\(\times \) slower, high energy cost
+Compare insect, bird, and mammal respiratory systems	Insects: tracheae Birds: unidirectional airflow (air sacs, parabronchi) Mammals: tidal ventilation (mixing)
+How do plants exchange gases without transport organs?	Diffusion via loosely packed cells (gas diffuse through air 1000 times faster than water). In many plant stems, these air filled spaces form aerenchyma (通气组织) Living cell located close to the surface Woody stems and shoots: lenticels (皮孔) replace stomata Wetland plants: air taken through one broken stem/dead plant reach other healthy sections through the rhizome network.
+Name essential nutrients for plants	Macronutrients: N, P, K, Ca, Mg, S Micronutrients: e.g. Fe, Zn, Mn
+Describe nitrogen fixation in plants	Bacteria in root nodules (Rhizobium 根瘤菌) use nitrogenase to convert \( N_2 \) to \( NH_3 \). Plants supply carbohydrates.
+Contrast ammonia, urea, and uric acid excretion	Ammonia: low energy, toxic, aquatic Urea: moderate energy, mammals/amphibians Uric acid: high energy, low water, reptiles/birds
+Describe the nephron and an adaptation in arid mammals	Nephron = glomerulus (肾小球) + tubule (肾小管) Dessert mammals: long Loop of Henle - concentrate urine
+List three types of sensory receptors	Chemoreceptors (molecules), mechanoreceptors (forces), photoreceptors (light)
+How does phytochrome ratio \( P_r:P_{fr}\) affect growth?	Sunlight - more \( P_{fr} \) - growth Shade - more \( P_r \) - shade-avoidance response
+How does jet lag disrupt circadian rhythm?	Light cues reset SCN (suprachiasmatic nucleus 视交叉上核, hypothalamus). Rapid travel misaligns SCN with peripheral clocks - fatigue, discomfort
+List four modes of heat exchange	radiation: Heat moves from warmer objects to cooler ones via the exchange of infrared radiation (what you feel when you stand in front of a fire).     convection: Heat exchanges with a surrounding medium such as air or water that flows over a surface (the wind-chill factor).     conduction: Heat flows directly between two objects at different temperatures when they come into contact (e.g., an icepack on a sprained ankle).     evaporation: Heat is transferred away from a surface when water evaporates on that surface (the effect of sweating).
+Define BMR vs SMR	BMR: endotherms at rest, thermoneutral zone. SMR: ectotherms at rest, at specific environmental temperature.
+Define iteroparity vs semelparity	Iteroparity = multiple reproductive events (e.g., humans, turtles) Semelparity = one event, adults die (e.g. salmon, agave)
+Contrast r- and K-selected species	r-selected: many offspring, early reproduction, low parental care K-selected: few offspring, late reproduction, high parental care
+Describe Type I, II and III survivorship curves	Type I: low early mortality, high rate (humans) Type II: constant mortality (birds) Type III: high early mortality, survivors live long (insects)
+Define life history trade-off	Limited resources force organisms to allocate between survival, growth, and reproduction
+Define a population and its four properties	Population = individuals of same species in one area Properties: size, boundaries, distribution, structure
+What are the assumptions of mark-recapture?	Marks not lost Marking harmless No trap bias Closed population
+Why is mark-recapture problematic in Antechinus?	Males die after breeding (semelparous), violating closed-population assumption
+"Define ""population"" vs ""gene pool"""	Population = group of interbreeding individuals Gene pool = total genetic information carried in the population
+What parameters are needed to estimate the impact of gene flow?	1. Genetic difference between populations 2. Migration/hybridization rate (m)
+"What is ""genetic rescue"" in conservation?"	Increasing genetic diversity by introducing individuals from another population (e.g. Florida panther + Texas puma)
+Give examples of adaptive introgression	Flower timing in plants, mimicry in butterflies, black coat in wolves/dogs, human traits from Neanderthals
+Which reproductive isolation is stronger, sympatric or allopatric? Why?	Sympatric. Sympatric species must evolve stronger barriers to prevent hybridization, while allopatric species are geographically separated.
+List two advantages of aerobic over anaerobic respiration	1. More ATP yield (32-38 vs 2) 2. Supports multicellularity and larger size
+What happens to SA:V ratio as organisms grow larger?	Surface area grows slower than volume - ratio decreases - diffusion efficiency reduced - need specialized organs
+How do small animals achieve direct gas exchange?	Thin, flat, porous bodies maximize SA:V; no cell far from surface (e.g. flatworms, sponges)
+List 4 adaptations heterotrophs require to gain nutrients	Collection (teeth, mouthparts) Mechanical digestion (chewing) Chemical digestion (enzymes) Abosorption (villi, microvilli)
+What three macromolecules are digested and how do they enter glycolysis?	Carbohydrates - glucose (direct) Proteins - amino acids - deamination - enter at various points Lipids - glycerol (glycolysis), fatty acids (\(\beta\)-oxidation - acetyl-CoA - citric acid cycle)
+Describe gastrovascular cavity features	消化循环腔 Single opening (mouth/anus), enzymes secreted inside, nutrient absorption, also waste removal (cnidarians, flatworms)
+How do plants excrete waste?	Transpiration (stomata) Storing in vacuole later shed as plant ages Guttation 吐水作用 (hydathodes 泌水孔) --- Nitrogen waster usually reused, some excreted by urea
+Do animals need one receptor per odorant molecule?	No. Smells are coded combinatorially: each odorant activates multiple receptors, enabling vast discrimination.
+Describe the somatosensory system's 3 levels	Receptor level: sensory detection Circuit level: ascending pathways Perceptual level: conscious interpretation in cortex
+Why does reaction rate drop after after \( T_{opt} \) ?	Enzymes denature at high temp - active sites lost - metabolic reactions fail
+List four thermoregulatory strategies	homeothermic endotherm (mammals) heterothermic endotherm (bats, bears) homeothermic ectotherm (tropical fish) heterothermic ectotherm (lizards)
+physiological vs behavioral thermoregulation?	Physiological = internal (sweating, shivering) - mainly endotherms Behavioral = actions (basking, burrowing) - mainly ectotherms
+Which has higher metabolic rate: 120 g fish or 100 g rabbit?	Rabbit. Endotherms have inherently higher metabolism than ectotherms of similar size
+Why does metabolic rate scale allometrically with body size?	Larger organisms need more energy (more cells), basal metabolic rate follows Kleiber's Law (~0.75 exponent)
+What is the advantage of alternation of generations?	Combines genetic recombination (diploid sporophyte) with flexibility/rapid reproduction (haploid gametophyte).
+Identify male vs female flower structures  Carpel, Microspore, Megaspore, Ovary, Sperm, Stigma, Stamen, Style	Female: carpel (心皮), megaspore, ovary, stigma (柱头), style (花柱) Male: stamen (雄蕊), microspore, sperm
+Name the key stages in fungal sexual reproduction	plasmogamy 胞质融合 (cytoplasm fusion) - dikaryon 双核体 (n+n) - karyogamy 核融合 (nuclei fusion) - diploid stage
+List 3 phases of immune response	recognition (self vs non-self): PRRs (pattern recognition receptors) look for PAMPs. If PAMPs are detected -> the immune response is triggered  activation (signals, cytokines, defensins): Non-specific responses that are all part of the innate system due to activation of PRRs 1. Defensins: antimicrobial peptides are released 2. Cytokines: proteins that cause inflammation 3. Complement system: activated (vertebrate specific) 4. Phagocytosis: where a cell engulfs a pathogen (not in plants), leads to inflammtory response or adaptive immune system  effector (destroy pathogen): Cell-mediated adaptive immunity, cytotoxic T cells kill infected cells Humoral immunity, B cells produce antibodies that neutralize or opsonize pathogens
+Why distinguish self from non-self?	Recognising non-self is important to target pathogens Recognising self is important to avoid damaging your own cells The role of MHC molecules in presenting antigens to T cells The interaction between immune cells like T cytotoxic and MHC molecules
+Role of defensins and cytokines?	Defensins 防御素 = antimicrobial peptides disrupting microbial membranes (plants and animals) Cytokines 细胞因子 = signaling proteins recruiting/activating immune cells (mainly animals)
+Effector differences: animals vs plants/fungi?	animals: phagocytosis by immune cells plants/fungi: regulated cell death at infection sites
+List 3 lines of vertebrate defense	Barriers (skins, mucosa 黏膜), innate immunity, adaptive immunity
+How does innate differ from acquired immunity?	Innate = fast, non-specific, always present Acquired = slower, specific, memory-based
+Give examples of innate defenses	structural (skin, cuticle, bark), mucous membrance (cillia + mucus 黏膜分泌的粘液)
+Role of phagocytes in innate immunity?	Engulf/digest pathogens, release cytokines, present antigens to T cells
+Two functions of inflammation?	Isolate infection site + recruit immune cells to kill invaders and promote healing
+Plant defense mechanisms?	Structural (cuticle, throns), MAMP-triggerd signaling, resistance protein, hypersensitive response, systemic acquired resistance
+Role of APCs and MHC molecules?	APCs (Antigen-Presenting Cells) present antigens via MHC (Major Histocompatibility Complex) molecules - recognized by T cells - trigger adaptive response
+Three antibody mechanisms?	neutralization (block infection) opsonization (tag for phagocytosis) complement activation
+Why innate defenses still important?	Provide rapid protection before adaptive immunity develops
+How do memory B cells work?	long-lived cells producing low antibody levels rapid, strong response upon reinfection
+How do cytotoxic T cells act?	Bind infected cells displaying antigen-MHC I complex - induce apoptosis
+Cost and benefit of late reproduction?	Benefit: larger body, higher fecundity Cost: risk dying before reproducing
+Advantage of long post-reproduction phase in female Orcas?	Care for calves + transfer ecological knowledge - increase offspring survival
+Advantages of semelparous annuals?	Invest all resources into one big reproductive events; advantageous in high-adult-mortality environments where surviving to reproduce again is unlikely
+Why is semelparity a strong trade-off?	Maximizes fecundity but adults die - no future reproduction
+Extra benefits of marking animals individually?	Track survival, reproduction, movement, territory, individual life histories
+	Toggle Masks
+	Toggle Masks
+	Toggle Masks
+	Toggle Masks
+	Toggle Masks
+	Toggle Masks
+	Toggle Masks
+	Toggle Masks
+	Toggle Masks
+	Toggle Masks
+	Toggle Masks
+	Toggle Masks
+	Toggle Masks
+	Toggle Masks
+	Toggle Masks
+If a skull has a diastema, which features would you expect in the live animal?	Broad molars for grinding Side-facing eyes (monocular vision, predator detection) Large mandible for chewing Long, complex gut formen magnum located at bottom
+Which features are more typical of carnivores?	Large canines and carnassials (ripping flesh) Sagittal crest for strong bite force Binocular vision (forward-facing eyes) Short, simple gut
+Why do aquatic animals commonly excrete ammonia?	because ammonia requires little energy to produce but is toxic unless diluted, so aquatic environments (oceans, freshwater) allow its safe excretion.
+Why are desert animals unlikely to excrete ammonia?	Desert animals need to conserve water, so they excrete nitrogen in less toxic, less water-dependent forms (e.g., uric acid, guanine).
+How do different types of carnivorous plants capture prey?	Venus fly trap (捕蝇草): Hinged leaves snap shut when trigger hairs are touched Trumpet pitcher (瓶子草): Uses scent, colour, nectar; insects slip and fall into funnel Sundew (茅膏菜): Sticky mucous glands on leaf surfaces trap and digest insects Monkey cup (猪笼草): Prey falls into fluid-filled cup and dronws; nutrients absorbed
+How to determine a signal/cue?	1. figure out which organism is sending the information, and which organism is receiving information 2. is there a selective advantage to the organism sending the message?
+What organelles are responsible for sensing gravity in roots? How does it regulate gravitropism? How does differential growth create root bending?	Amyloplasts 淀粉体 (statoliths 平衡石) in statocytes of the root cap settle to the lower side of statocytes, triggering hormone redistribution (auxin), leading to asymmetric growth.  Growth is inhibited on the lower side (more auxin) and stimulated on the upper side, causing roots to bend downward (positive gravitropism). An s-shaped growth occurs with alternating elongation patterns.
+Explain thigmotropism.	Growth response to touch. Negative in roots (growing away from obstacles), positive in tendrils (curling around supports).
+How does differential cell growth cause positive thigmotropism in tendrils?	Positive thigmotropism is when a plant tendril grows towards a physical touch stimulus. On the side in contact with the object, cells elongate less On the opposite side, cells elongate more This differential growth cases the tendril to bend and wrap around the object
+How does negative thigmotropism occur in roots?	Negative thigmotropism is when a root grows away from a physical obstacle it touches. On the side in contact with the obstacle, cells elongate more On the opposite side, cells elongate less This differential growth bends the root away from the obstacle
+identify these tooth structures:  Canines  Incisors  Premolars  Molars	Canines (used for ripping and tearing) —— 犬齿（用于撕裂、撕扯）  Incisors (for cutting) —— 门齿（用于切割）  Premolars (for shearing) —— 前臼齿（用于剪切）  Molars (for grinding) —— 臼齿（用于研磨）
+Define convergent evolution	Convergent evolution is a term that can be used to explain similar traits in different species. Convergent traits do not arise through common descent, but evolve independently for similar purposes.
+why does life respire?	Repiration is the process by which an organism exchange gasses between themselves and the environment All species respire to release energy from their food and to fuel cellular processes
+Three stages of aerobic cellular respiration? Anaerobic?	aerobic: glycolysis, the Krebs cycle and oxidative phosphorylation anaerobic: glycolysis, fermentation
+How do specialized gas exchange surfaces match the volume of the organism and its oxygen requirements?	Specialized gas exchange surfaces must maximize membrane area and minimize thickness To facilitate this many gas exchange systems are made up of thin branched or folded membranes
+Describe main structure for gas exchange in plants	Gas exchange in plants occurs primarily through the stomata where carbon dioxide and oxygen diffuse into and out of the leaf tissue.
+How does fungi exchange gases?	unicellular (e.g. yeast): simple diffusion  multicellular: via large branching network of mycelium, large SV ratio and can form colonies produce fruiting bodies that extend above the substrate into the air Fruiting bodies exchange gas via their thin, porous body walls, rely on diffusion between cells for supplying oxyge throughout the body
+two main processes of gas exchange?	ventilation: gas moved across gas exchange surface circulation: gas moved to and from gas exchange surface and the body tissues
+How is lung surface kept moist? How does the structure aid diffusion of gases?	lung surface is kept moist by surfactants, special molecules with a hydrophilic head (attract water) and hydrophobic end (repel water and collect impurities), secreted by pneumocyte cells (肺泡细胞) surfactants reduce surface tension of the lung to aid in the diffusion of gases
+Describe the transport of water and nutrients within plants	The transport of water and nutrients within plants occurs primarily via the vascular tissue 维管组织 - the xylem 木质部 (water and minerals) and phloem 韧皮部 (carbohydrates)
+Describe vertebrate adaptations for digestion	Some vertebrates have specialized extensions of the stomach to prolong digestion In ruminants, the stomach is split into four compartments (rumen, reticulum, omasum and abomasums), foregut fermenters (e.g. bovine) Hindgut fermenters have farily simple stomach but rely on very long hind guts where the caecum is the specialized region for the fementation (e.g. koala, folivore 食叶动物)
+How are digestive tracts adapted to have larger SV ratio?	Inward folding of certain parts of the gut (e.g. typhosole in the earthworm)  Additional tissue structures (e.g. the spiral valve in the shark)  Intestinal folds and villi in the human gut: The absorptive cells known as villi posses small tube like projections or folds called microvilli, increasing SV ratio and interact almost directly with capillary network, optimizing both absorption and transport
+define Q10	Q10 is a unitless variable which denotes the rate of change of a reaction over a 10 degree change in temperature
+Aerobic Respiration Equation	\[C_{6}H_{12}O_{6} + 6O_{2} \;\longrightarrow\; 6CO_{2} + 6H_{2}O + \text{ATP}\]
+Three kinds of phyletic group?	Paraphyly (并系群): A group that includes a common ancestor but not all its descendants. Polyphyly (复系群): A group that does not include the most recent common ancester of all members Monophyly (单系群): A group that includes a common ancester and all its descendants
+Why non-Africans have alleles associated with Neanderthals, whilst Africans don't.	Adaptive introgression hypothesis: Non-Africans benefitted from interbreeding with Neanderthals as they migrated to Europe with its colder climate (pale skin, red hair), whilst Africans did not interbreed with Neanderthals  Incomplete lineage sorting hypothesis: Africans lost these Neanderthal allels due to chance over time
+What prevents a mutant crab with cheap hollow claws from 'cheating' its way to reproductive success?	1. They might win displays, however, will lose actual fights 2. Females could develop counter adaptations
+Why does the yellow morph of elderflower orchids have higher reproductive success when it is rare in the population, and lower reproductive success when it is common? Name the evolutionary mechanism involved.	Yellow orchid reproductive success increases as yellow morph frequency decreases. This is because as they are rarer, pollinators 'forget' that these flowers offer no rewards, whereas when they are common, this association is reinforced more strongly. Balancing selection
+Predict any evolutionary changes resulting from the experimental treatments 1. Milkweed without caterpillars 2. Milkweed with high levels of herbivory 3. Caterpillars with low toxin milkweed 4. Caterpillars with high toxin milkweed	1. Milkweed without caterpillars recued plant toxin, N/A caterpillar toxin tolerance 2. Milkweed with high levels of herbivory increased plant toxin, fixed caterpillar toxin tolerance 3. Caterpillars with low toxin milkweed fixed plant toxin, reduced caterpillar toxin tolerance 4. Caterpillars with high toxin milkweed fixed plant toxin, increased caterpillar toxin tolerance
+Why Cytochrom C is the most conserved protein?	Cytochrome C is the most conserved protein as it is vital for cellular respiration, therefore any small change can have dramatic consequences for the organisms. This make Cytochrome C the best molecular clock among different proteins.
+What makes a molecular clock good?	Highly conserved Applicable to a wide range of subjects  protein encoding sequences > intron sequences > neutral marks > short tandem repeats
+how do each of the following conditions affect stomatal density: temperature CO2  water levels leaf placement	temp as temp increases, stomatal density also increases due to the need for more gas exchange   carbon dioxide more CO2 --> plants can absorb less gas to have the same level of photosynthesis so stomatal density would decrease  water levels as water levels increase, stomatal density would decrease as less are required to be open to take in water to achieve the same rates of photosynthesis  leaf placement (at different elevations) lower leaves need higher stomatal density because they have less access to the inputs of photosynthesis and vice versa for higher leaves
+what adaptations allow andean geese to survive in high altitudes?	large volume of lung --> get more air and more oxygen large surface area of lung --> increase rate of gas exchange
+why is human urine good for lemon tree?	urine contains nitrogen, sodium and mineral salts, all of which are good for plants. Bacteria (such as rhizobium 根瘤菌) undergo nitrogen fixation to convert nitrogen into nutrients in the soil for lemon trees, facilitating their growth
+which receptors are NOT activated when touching ice to lips	Hygroreceptors detecting wetness (fingers and lip)
+why do venus fly traps have mechanoreceptors that require two taps to activate the trap?	prevent false positives (eg. rain) which is energy costly
+How does a lizard use behavioural responses when exposed to high temperatures?	conduction via skin (ie. rocks they lie on)  evaporation (panting)
+Explain the physiological and behavioural responses shown by red kangaroos struggling with hot, dry conditions.	licking forearms (evaporation) very little fat and muscle to facilitate heat evaporation from their blood vessels (evaporation)  hide under shade (behavioural) digging (conduction -> offloading the heat into the ground)
+Amazon Molly: Gynogenesis 雌核发育 Females utilise sperm from males from other species as a cue to reproduce asexually Why?	Other species reproduce when their offspring is likely to survive; hence the female amazon molly can use their reproduction as a cue that it is optimal for their offspring.
+What is mucociliary transport?	Foreign agents are trapped in mucus layer and transported toward trachea by cilia
+list 6 agents of evolutionary change	Mutation: Change in the nucleotide sequences of an organism’s DNA.  Genetic drift: Random sampling of alleles across generations and is more influential in small populations  Natural selection: A microevolutionary process that shapes the phenotypes of organisms to match their environment.  Non-random mating: Mating patterns often alter genotype frequencies because the individuals in a population do not choose mates at random.  Gene flow: Migration of individuals and movements of gametes (in pollen, for example) between populations  Recombination: Recombination contributes to evolution by creating novel combinations of alleles at diﬀerent loci, especially during meiosis.
+What are the benefits of genetic rescue?	Introduce genetic variation Reduce the impact of inbreeding Reduce the impact of incresed homoszygosity Reduce the impact of genetic drift, i.e. increase population size
+Ways of asexual reproduction?	Binary fission: Reproduction of a prokaryote by division of cell into two genetically identical progeny cells Multiple fission: Reproduction of a protist or certain bacteria by repeated nuclear divisions followed by cytoplasmic division, producing multiple genetically identical progeny cells Fragmentation: A form of asexual reproduction where a parent organism breaks into fragments, each capable of growing indeendently into a new organism Budding: The outgrowth of a new cell from the surface of an old one Vegetative propagation: Similar to fragmentation, a full organism can form from the fragment of its parent; the process can occur voluntarily or involuntarily; only happens within plants Parthenogenesis: A form of asexual reproduction that occurs in multicellular plants and animals via the development of offspring from unfertilized eggs
+Describe antigen recognitioin	Occurs when a T cell encounters an antigen bound to a MHC protein Antigen recognition activates cytotoxic T cells and triggers their reproduction Cytotoxic T cells use chemicals to destroy the target cell
+What is the basic principle of an ELISA?	Enzyme-Linked ImmunoSorbent Assay 酶联免疫吸附试验 It uses antigen-antibody specificity, with an enzyme-linked secondary antibody producing a color change in the presence of substrate, indicating antibody binding.
+In indirect ELISA, what is the role of primary antibody and secondary antibody?	Primary antibody binds directly to the antigen-coated well Secondary antibody binds to the conserved region of the primary antibody and carries an enzyme that catalyzes a color change reaction
+What is the first step of indirect ELISA test?	Coat the wells with antigen
+What is the purpose of the wash steps in ELISA?	To remove unbound serum components or antibodies, preventing false positives
+What solution is added after the primary antibody and washing in indirect ELISA?	Secondary antibody solution (enzyme-conjugated)
+What solution is added last in indirect ELISA, producing the observable result?	Developing substrate solution (D)
+What is the purpose of negative/positive control in ELISA?	To ensure no color change occurs without antibodies (check for false positives) To ensure the assay is working correctly (a known antibody-containing sample should show color change)
+Give one limitation of the practical 3 ELISA method. How could ELISA results be made more accurate?	Only qualitative (color intensity) rather than quantitative, may miss subtle differences Use multiple replicates and measure absorbance with a spectrometer instead of visual inspection
+Distinguish types of immunity: 1. vaccination against flu 2. recovering from flu 3. baby receive from antibodies in breast milk	Artificial active Natural active (both 1 and 2 involve antibody memory) Natural passive
+What's the pupose of replicate well in indirect ELISA?	To avoid random variation and reduce error (e.g. pipetting inaccuracy, incomplete washing) by repeating the test multiple times
+What is the difference between exponential and logistic population growth?	Exponential growth occurs when resources are unlimited, producing a constant per capita growth rate. Logistic growth slows as population size approaches carrying capacity (K), where resources become limiting.
+Define carrying capacity (K).	The maximum population size that an environment can sustain indefinitely given available resources
+Give examples of density-dependent and density-independent factors that control population growth.	Density-dependent: competition, predation, disease. Density-independent: temperature, storms, pollution.
+What is environmental stochasticity?	Random, unpredictable environmental variations (e.g., droughts, harsh winters) that cause population fluctuations regardless of density.
+Why are small populations more susceptible to demographic stochasticity?	Random differences in births and deaths have a larger proportional effect, potentially leading to extinction even if average growth rates are positive.
+What is a metapopulation?	A group of spatially separated populations linked by dispersal.
+How do source and sink populations contribute to metapopulation persistence?	Source populations produce excess individuals that colonize sink patches, maintaining regional stability despite local extinctions.
+Give examples of prey adaptations to avoid predation.	Camouflage, toxins, warning coloration, mimicry, group behavior, alarm calls.
+Define competition in ecology.	An interaction where species vie for the same limiting resource, reducing growth, survival, or reproduction of at least one participant.
+Contrast interference and exploitation competition.	Interference: direct prevention (e.g., territorial exclusion). Exploitation: indirect use of shared resources; efficiency determines outcome.
+Explain how competition shapes zonation patterns on rocky shores.	Upper-tolerant species (Chthamalus) survive higher zones; competitive dominants (Semibalanus) occupy lower zones, excluded from upper by desiccation.
+Define dispersal.	The movement of individuals from their birthplace to a new location for breeding.
+Differentiate dispersal and migration.	Dispersal = one-way movement; Migration = regular, seasonal, two-way movement.
+Define symbiosis.	A close and long-term interaction between two species, which may be mutualistic (互利共生), commensal (偏利共生), or parasitic.
+Distinguish between parasitism, mutualism, and commensalism.	Parasitism: one benefits, other harmed. Mutualism: both benefit. Commensalism: one benefits, other unaffected.
+Give examples of microparasites and macroparasites.	Microparasites: viruses, bacteria. Macroparasites: tapeworms, nematodes.
+What is the difference between monoxenic and heteroxenic life cycles?	Monoxenic: single host species. Heteroxenic: multiple hosts (intermediate + definitive).
+Give an example of an obligate mutualism.	Yucca plant and yucca moth — both depend on each other for reproduction.
+What does the stress-gradient hypothesis predict?	Competition dominates in low-stress environments; mutualism increases in high-stress environments.
+Define a pest or weed in ecological terms.	A species with populations perceived as too abundant or damaging, usually due to human interests.
+What is the enemy release hypothesis?	Introduced species often thrive because they escape their natural predators and pathogens.
+Define classical biological control.	The intentional introduction of natural enemies from a pest’s native range to control its population.
+Contrast inoculative and inundative biological control.	Inoculative: few individuals released to reproduce and establish. Inundative: many released for immediate, short-term control.
+Define endemic vs epidemic diseases.	Endemic: constant in a region. Epidemic: sudden outbreak affecting many individuals.
+What traits allow a pathogen to drive extinction?	High virulence, multi-host infection, frequency-dependent transmission, long-lived infective stages.
+Define an ecological community.	A group of potentially interacting species that coexist in space and time.
+List the three “filters” determining community composition.	Regional species pool (evolution), dispersal, abiotic and biotic filters (niches).
+Distinguish between fundamental and realised niches.	Fundamental niche = potential physiological range. Realised niche = actual range after biotic interactions.
+How can disturbance influence community composition?	It resets succession, favors early colonizers, and alters competitive interactions.
+What does the Shannon index measure?	Species diversity combining richness and evenness: \( H = - \sum_{i=1}^{S} p_i \ln(p_i) \)
+How can species diversity enhance community stability?	Through functional complementarity and asynchronous species responses buffering fluctuations.
+Differentiate energy flow from nutrient cycling.	Energy flows one-way and is lost as heat; nutrients cycle between biotic and abiotic pools.
+Define Net Primary Production (NPP).	NPP = GPP – respiration; the amount of carbon remaining after plant respiration.
+What drives global NPP patterns?	Temperature, light, and moisture — highest in tropical rainforests, lowest in deserts and poles.
+Define a trophic cascade.	A process where changes at one trophic level cause cascading effects on lower levels (e.g., wolves → elk → vegetation).
+Compare top-down vs bottom-up control.	Top-down: predators regulate lower levels. Bottom-up: nutrients/energy regulate higher levels.
+What is eutrophication?	Nutrient enrichment causing algal blooms, oxygen depletion, and fish kills.
+Which biogeochemical cycle is most biologically mediated?	The nitrogen cycle — driven by bacterial fixation, nitrification, and denitrification.
+What causes biodiversity loss?	Habitat destruction, climate change, invasive species, overexploitation, pollution, and disease.
+Why do small populations lose genetic diversity?	Inbreeding depression and genetic drift.
+Why does biodiversity loss matter to humans?	It reduces ecosystem services (e.g., food, water, pollination) and cultural/psychological wellbeing.
+List the “Evil Quartet” of extinction drivers.	Habitat loss, invasive species, overexploitation, co-extinction (+ disease, climate change).
+What are the UN’s three main actions for biodiversity recovery?	Conservation/restoration, sustainable production/consumption, climate mitigation.
+Compare the role of protected areas vs restoration.	Protected areas prevent further loss; restoration rebuilds degraded ecosystems.
+Why is intensive species management important?	It prevents extinction when natural recovery is impossible (e.g., captive breeding).
