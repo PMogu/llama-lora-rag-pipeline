@@ -11,31 +11,6 @@ Detailed design notes and implementation guides are provided in notes.md (in Chi
 
 ---
 
-## Structure
-.
-├── adapters
-├── app
-│   └── chat.py
-├── command_lines.rtf
-├── data # This contains raw data and conversion programs for LoRA & RAG.
-│   ├── anki_to_chat_new.py
-│   ├── embed_chunks.py
-│   ├── LoRA_train
-│   ├── pdf_to_txt.py
-│   ├── RAG
-│   ├── raw
-│   ├── raw_to_train_chat.py
-│   ├── raw_to_train.py
-│   └── txt_to_chunk.py
-├── LoRA_guide.rtf
-├── models
-├── RAG_guide.rtf
-├── README.md
-├── test_lora.py
-└── test_rag.py
-
----
-
 ## Usage
 
 ```bash
@@ -81,31 +56,6 @@ and it will be removed promptly.
 面向可复现实验、课程作业与研究用途的本地化实践项目。
 
 更详细的设计说明与实现指南请查看：`notes.md`。
-
----
-
-## 项目结构
-.
-├── adapters
-├── app
-│   └── chat.py
-├── command_lines.rtf
-├── data                          # 包含用于 LoRA & RAG 的原始数据与转换程序
-│   ├── anki_to_chat_new.py
-│   ├── embed_chunks.py
-│   ├── LoRA_train
-│   ├── pdf_to_txt.py
-│   ├── RAG
-│   ├── raw
-│   ├── raw_to_train_chat.py
-│   ├── raw_to_train.py
-│   └── txt_to_chunk.py
-├── LoRA_guide.rtf
-├── models
-├── RAG_guide.rtf
-├── README.md
-├── test_lora.py
-└── test_rag.py
 
 ## 使用方式
 
