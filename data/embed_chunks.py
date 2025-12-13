@@ -16,30 +16,34 @@ META_PATH  = RAG_DIR / "meta.json"
 
 MODEL_PATH = BASE_DIR / "models" / "embedding" / "bge-m3"
 
-
-MODEL_NAME = str(MODEL_PATH)
-
-# Load embedding model
 print("[INFO] Loading embedding model...")
-model = SentenceTransformer(MODEL_NAME)
+model = SentenceTransformer(str(MODEL_PATH))
 
-# Load chunks
 texts = []
 metadata = []
 
 with open(CHUNKS_PATH, "r", encoding="utf-8") as f:
-    for line in f:
+    for i, line in enumerate(f):
         record = json.loads(line)
-        texts.append(record["text"])
+
+        assert "text" in record, f"Missing text field at line {i}"
+        text = record["text"]
+        assert isinstance(text, str), f"text is not str at line {i}"
+        text = text.strip()
+        assert text != "", f"Empty text at line {i}"
+
+        texts.append(text)
+
         metadata.append({
-            "id": record["id"],
-            "source": record["source"],
-            "chunk_index": record["chunk_index"]
+            "id": record.get("id", f"chunk_{i}"),
+            "source": record.get("source", "unknown"),
+            "chunk_index": record.get("chunk_index", i),
+            "text": text
         })
 
 print(f"[INFO] Loaded {len(texts)} chunks")
 
-# Compute embeddings
+# Embedding
 print("[INFO] Computing embeddings...")
 embeddings = model.encode(
     texts,
@@ -49,17 +53,17 @@ embeddings = model.encode(
     normalize_embeddings=True
 )
 
+assert embeddings.shape[0] == len(metadata), "Embedding / metadata size mismatch"
+
 print(f"[INFO] Embedding shape: {embeddings.shape}")
 
-# Build FAISS index
+# FAISS
 dim = embeddings.shape[1]
-index = faiss.IndexFlatIP(dim)   # cosine similarity
-
+index = faiss.IndexFlatIP(dim)
 index.add(embeddings)
 
 print(f"[INFO] FAISS index size: {index.ntotal}")
 
-# Save index & metadata
 faiss.write_index(index, str(INDEX_PATH))
 
 with open(META_PATH, "w", encoding="utf-8") as f:
