@@ -5,17 +5,14 @@ from pathlib import Path
 from sentence_transformers import SentenceTransformer
 from mlx_lm import load, generate
 
-BASE_MODEL_PATH = "/Users/Chen/Desktop/LLM/models/Llama-3.2-3B-Instruct"
-EMBED_MODEL_PATH = "/Users/Chen/Desktop/LLM/models/embedding/bge-m3"
-
 BASE_DIR = Path(__file__).resolve().parent
 
-BASE_MODEL_PATH = BASE_DIR / "models" / "Llama-3.2-3B-Instruct"
-ADAPTER_PATH = BASE_DIR / "models" / "embedding" / "bge-m3"
+BASE_MODEL_PATH  = str(BASE_DIR / "models" / "Llama-3.2-3B-Instruct")
+EMBED_MODEL_PATH = str(BASE_DIR / "models" / "embedding" / "bge-m3")
 
-RAG_DIR = Path("/Users/Chen/Desktop/LLM/data/RAG")
-INDEX_PATH = RAG_DIR / "index.faiss"
-META_PATH  = RAG_DIR / "meta.json"
+RAG_DIR = BASE_DIR / "data" / "RAG"
+INDEX_PATH = str(RAG_DIR / "index.faiss")
+META_PATH  = str(RAG_DIR / "meta.json")
 
 TOP_K = 5
 
@@ -46,7 +43,7 @@ def build_rag_prompt(question: str, contexts: list[str]) -> str:
         f"[Context {i+1}]\n{c}" for i, c in enumerate(contexts)
     )
 
-    return f"""You are a helpful, accurate biology assistant.
+    return f"""You are a helpful assistant.
 Use the following reference material to answer the question.
 If the answer is not contained in the material, say you are not sure.
 
@@ -56,7 +53,7 @@ Question:
 {question}
 """
 
-def retrieve_context(query: str, k: int = TOP_K) -> list[str]:
+def retrieve_context(query: str, k: int = TOP_K, debug: bool = True) -> list[str]:
     query_emb = embed_model.encode(
         [query],
         normalize_embeddings=True
@@ -65,26 +62,37 @@ def retrieve_context(query: str, k: int = TOP_K) -> list[str]:
     scores, indices = index.search(query_emb, k)
 
     contexts = []
-    for idx in indices[0]:
+
+    if debug:
+        print("\n[DEBUG] Retrieved chunks:")
+
+    for rank, idx in enumerate(indices[0]):
         if idx < 0:
             continue
 
         meta = metadata[idx]
-        source = meta["source"]
-        chunk_id = meta["id"]
 
-        contexts.append(
-            f"(Source: {source}, Chunk: {chunk_id})"
-        )
+        chunk_text = meta.get("text", "")
+        source = meta.get("source", "unknown")
+        chunk_id = meta.get("id", idx)
+
+        if debug:
+            print(f"\n--- Chunk {rank+1} ---")
+            print(f"Source: {source}, ID: {chunk_id}")
+            print(chunk_text[:400])  # 只打印前 400 字，避免刷屏
+
+        contexts.append(chunk_text)
 
     return contexts
 
 test_questions = [
-    "What are the respective roles of the slice-selection gradient, phase-encoding gradient, and frequency-encoding gradient in MRI image formation?",
-    "Why does diffusion tensor imaging (DTI) show anisotropic diffusion in white matter, and how is this property used to infer fiber tract orientation?",
-    "How do repetition time (TR) and echo time (TE) differ between T1-weighted and T2-weighted MRI, and why do these choices affect tissue contrast?",
-    "What are the respective roles of the slice-selection gradient, phase-encoding gradient, and frequency-encoding gradient in MRI image formation?",
-    "What are the main trade-offs between single-voxel magnetic resonance spectroscopy (MRS) and magnetic resonance spectroscopy imaging (MRSI)?",
+    "How many chronels are in a day in Lyradis?",
+    "Talk about Lyradis",
+    # "What are the respective roles of the slice-selection gradient, phase-encoding gradient, and frequency-encoding gradient in MRI image formation?",
+    # "Why does diffusion tensor imaging (DTI) show anisotropic diffusion in white matter, and how is this property used to infer fiber tract orientation?",
+    # "How do repetition time (TR) and echo time (TE) differ between T1-weighted and T2-weighted MRI, and why do these choices affect tissue contrast?",
+    # "What are the respective roles of the slice-selection gradient, phase-encoding gradient, and frequency-encoding gradient in MRI image formation?",
+    # "What are the main trade-offs between single-voxel magnetic resonance spectroscopy (MRS) and magnetic resonance spectroscopy imaging (MRSI)?"
 ]
 
 
@@ -92,11 +100,19 @@ gen_kwargs = dict(
     max_tokens=256
 )
 
+FORCE_REFERENCE = False
+
 for q in test_questions:
     print("=" * 100)
     print("QUESTION:\n", q)
 
-    contexts = retrieve_context(q)
+    if FORCE_REFERENCE:
+        print("[DEBUG] Using forced reference (bypassing retrieval)")
+        contexts = [
+            "In the fictional city-state of Lyradis, one full day consists of exactly 343 units called 'chronels'."
+        ]
+    else:
+        contexts = retrieve_context(q, debug=True)
 
     rag_prompt = build_rag_prompt(q, contexts)
 

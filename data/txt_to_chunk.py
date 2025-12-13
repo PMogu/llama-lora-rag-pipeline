@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 import tiktoken
 
@@ -16,21 +17,63 @@ OVERLAP = 80
 
 enc = tiktoken.get_encoding("cl100k_base")
 
-def chunk_text(text: str):
+CONTENT_PATTERN = re.compile(
+    r"<content>(.*?)</content>",
+    re.DOTALL | re.IGNORECASE
+)
+
+# =====================
+# Token-based chunking
+# =====================
+def token_chunk(text: str):
     tokens = enc.encode(text)
     chunks = []
 
     start = 0
-    idx = 0
-
     while start < len(tokens):
         end = start + CHUNK_SIZE
         chunk_tokens = tokens[start:end]
         chunk_text = enc.decode(chunk_tokens)
 
-        chunks.append((idx, chunk_text))
-        idx += 1
+        chunks.append(chunk_text)
         start += CHUNK_SIZE - OVERLAP
+
+    return chunks
+
+# =====================
+# Hybrid chunking:
+# <content> blocks > token chunks
+# =====================
+def chunk_text(text: str):
+    chunks = []
+    idx = 0
+    last_end = 0
+
+    # Iterate over all <content>...</content>
+    for match in CONTENT_PATTERN.finditer(text):
+        start, end = match.span()
+
+        # ---- 1. normal text before <content> ----
+        normal_text = text[last_end:start].strip()
+        if normal_text:
+            for chunk in token_chunk(normal_text):
+                chunks.append((idx, chunk))
+                idx += 1
+
+        # ---- 2. <content> block itself (atomic) ----
+        content_text = match.group(1).strip()
+        if content_text:
+            chunks.append((idx, content_text))
+            idx += 1
+
+        last_end = end
+
+    # ---- 3. remaining tail text ----
+    tail_text = text[last_end:].strip()
+    if tail_text:
+        for chunk in token_chunk(tail_text):
+            chunks.append((idx, chunk))
+            idx += 1
 
     return chunks
 
