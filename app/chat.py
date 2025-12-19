@@ -2,7 +2,6 @@ import json
 import faiss
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
-
 from mlx_lm import load, generate
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -21,7 +20,7 @@ RAG_DIR_STR      = str(RAG_DIR)
 INDEX_PATH = RAG_DIR / "index.faiss"
 META_PATH  = RAG_DIR / "meta.json"
 
-TOP_K = 5
+TOP_K = 5 # 每次检索取最相似的5条
 MAX_TOKENS = 256
 
 # RAG & LoRA (can be turned on/off)
@@ -65,7 +64,7 @@ def build_rag_prompt(question: str, contexts: list[str]) -> str:
         f"[Context {i+1}]\n{c}" for i, c in enumerate(contexts)
     )
 
-    return f"""You are a helpful, accurate biology assistant.
+    return f"""You are a helpful, accurate research assistant.
 Use the reference material below to answer the question.
 If the answer cannot be found in the material, say you are not sure.
 
@@ -85,13 +84,19 @@ def retrieve_context(query: str, k: int = TOP_K) -> list[str]:
     scores, indices = index.search(query_emb, k)
 
     contexts = []
+
     for idx in indices[0]:
         if idx < 0:
             continue
 
         meta = metadata[idx]
+
+        chunk_text = meta.get("text", "")
+        source = meta.get("source", "unknown")
+        chunk_id = meta.get("id", idx)
+
         contexts.append(
-            f"(Source: {meta['source']}, Chunk: {meta['id']})"
+            f"{chunk_text}\n(Source: {source}, Chunk: {chunk_id})"
         )
 
     return contexts
