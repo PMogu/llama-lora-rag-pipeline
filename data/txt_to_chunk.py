@@ -5,7 +5,7 @@ import tiktoken
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-TXT_DIR = BASE_DIR / "data" / "raw" / "pdf2txt" / "neuroimaging"
+TXT_DIR = BASE_DIR / "data" / "raw" / "pdf2txt"
 OUT_DIR  = BASE_DIR / "data" / "raw" / "chunk"
 
 OUT_DIR.mkdir(exist_ok=True)
@@ -22,9 +22,7 @@ CONTENT_PATTERN = re.compile(
     re.DOTALL | re.IGNORECASE
 )
 
-# =====================
 # Token-based chunking
-# =====================
 def token_chunk(text: str):
     tokens = enc.encode(text)
     chunks = []
@@ -40,10 +38,8 @@ def token_chunk(text: str):
 
     return chunks
 
-# =====================
 # Hybrid chunking:
 # <content> blocks > token chunks
-# =====================
 def chunk_text(text: str):
     chunks = []
     idx = 0
