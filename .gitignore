@@ -29,10 +29,23 @@ adapters/*
 data/RAG/*
 !data/RAG/.gitkeep
 
-data/raw/chunk/*
-data/raw/pdf2txt/*
+data/raw/*
+data/raw/*
 
 # =====================
 # Generated training data
 # =====================
 data/train*
+
+# ignore reading plan PDFs
+data/raw/rawbook&reading plan/*.pdf
+
+# ignore local PDFs
+*.pdf
+data/raw/pdf/
+data/raw/rawbook&reading plan/
+
+# ignore local PDFs
+*.pdf
+data/raw/pdf/
+data/raw/rawbook&reading plan/
